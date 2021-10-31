@@ -139,5 +139,16 @@ strong {
   }
 }
 @media screen and (min-width: 1700px){
-  
+  .top-description p {
+    position: absolute;
+    font-size: 4rem;
+    color: white;  
+    top: 10%;
+    left: 20%;
+   
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 }
