@@ -88,10 +88,10 @@ nav {
 .top-description p {
   position: absolute;
   font-size: 3rem;
-  color: white;  
+  color: white;
   top: 10%;
   left: 15%;
- 
+
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -138,6 +138,34 @@ strong {
     height: 100%;
   }
 }
-@media screen and (min-width: 1700px){
-  
+@media screen and (min-width: 1700px) {
+  .top-description p {
+    position: absolute;
+    font-size: 4rem;
+    color: white;
+    top: 10%;
+    left: 20%;
+
+  }
 }
+
+@media screen and (max-width: 1000px) {
+  .top-description p {
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    top: 10%;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 634px){
+  .top-description p {
+    position: absolute;
+    font-size: 1.3rem;
+    color: white;
+    top: 15%;
+    left: 10%;
+  }
+}
+
