@@ -11,7 +11,7 @@ nav {
   left: 0;
   flex-basis: row;
   justify-content: space-between;
-    background-color: black;
+  background-color: black;
 
   width: 100%;
   border-top: 5px solid black;
@@ -28,34 +28,63 @@ nav {
   text-decoration: none;
   color: white;
 }
+
+.nav-right {
+  display: flex;
+  width: 50%;
+  justify-content: end;
+  place-self: center;
+}
+
+.nav-right > a {
+  padding: 10px 7%;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-right h2 {
+  margin: 0;
+  white-space: nowrap;
+}
+.nav-right a {
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 40px;
+  margin-right: 40px;
+}
+
 .icons-list {
-    display: grid;
-    position: absolute;
-    top: 30%;
-    width: 70%;
-    left: 15%;
-    right: 15%;
-    
-    grid-template: 1fr 1fr / 1fr 1fr 1fr;
-    color: white;
+  display: grid;
+  position: absolute;
+  top: 30%;
+  width: 70%;
+  left: 15%;
+  right: 15%;
+
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  color: white;
 }
 
 .icon {
-    justify-self: center;
-    padding: 0 50px;
-    border-radius: 20px;
-    transition-duration: 500ms;
-    border: 4px solid rgb(71, 71, 71);
-    text-align: center;
-    margin-bottom: 20px;
+  justify-self: center;
+  padding: 0 50px;
+  border-radius: 20px;
+  transition-duration: 500ms;
+  border: 4px solid rgb(71, 71, 71);
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.icon img{
-    width: 200px;
-    height: auto;
+.icon img {
+  width: 200px;
+  height: auto;
 }
 
 .icon:hover {
-    background-color: rgb(32, 32, 32);
-    border: none;
+  background-color: rgb(32, 32, 32);
+  border: none;
 }
