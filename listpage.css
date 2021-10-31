@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(194, 185, 199);
+  font-family: "Exo 2", sans-serif;
+}
+
+nav {
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-basis: row;
+  justify-content: space-between;
+    background-color: black;
+
+  width: 100%;
+  border-top: 5px solid black;
+}
+.nav-left {
+  color: white;
+  padding-left: 3%;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-family: "Exo 2", sans-serif;
+  text-shadow: #000 -4px 0 7px;
+}
+.nav-left a {
+  text-decoration: none;
+  color: white;
+}
