@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(194, 185, 199);
+  background-color: black;
   font-family: "Exo 2", sans-serif;
 }
 
@@ -115,7 +115,7 @@ strong {
   display: flex;
   width: 70%;
   height: 100%;
-  border: 30px solid rgb(76, 61, 82);
+  border: 30px solid rgb(41, 40, 40);
   border-radius: 5px;
 }
 .demo p {
