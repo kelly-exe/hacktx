@@ -28,9 +28,30 @@ nav {
   text-decoration: none;
   color: white;
 }
-.icon-list {
+.icons-list {
     display: grid;
     position: absolute;
-    top: 100px;
+    top: 200px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    color: white;
+}
+
+.icon {
+    justify-self: center;
+    padding: 0 50px;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+.icon img{
+    width: 200px;
+    height: auto;
+}
+
+.icon:hover {
+    background-color: rgb(32, 32, 32);
 }
