@@ -45,6 +45,7 @@ nav {
     padding: 0 50px;
     border-radius: 20px;
     transition-duration: 500ms;
+    border: 4px solid rgb(71, 71, 71);
 }
 
 .icon img{
@@ -54,4 +55,5 @@ nav {
 
 .icon:hover {
     background-color: rgb(32, 32, 32);
+    border: none;
 }
